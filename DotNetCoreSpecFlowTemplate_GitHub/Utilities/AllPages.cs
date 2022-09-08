@@ -1,8 +1,9 @@
-﻿using System;
+﻿using DotNetCoreSpecFlowTemplate.AppPages;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DotNetCoreSpecFlowTemplate.AppPages
+namespace DotNetCoreSpecFlowTemplate.Utilities
 {
     public class AllPages
     {

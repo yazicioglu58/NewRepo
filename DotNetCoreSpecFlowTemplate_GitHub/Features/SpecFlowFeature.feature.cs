@@ -138,6 +138,9 @@ this.FeatureBackground();
 #line 26
  testRunner.Then(string.Format("I should see a result containing \"{0}\"", item), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
+#line 27
+ testRunner.Then("I collect results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

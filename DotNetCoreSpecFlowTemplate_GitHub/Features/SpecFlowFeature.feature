@@ -24,6 +24,7 @@ Scenario Outline: As a user I should see section headers at the home page
 					
 	When I search the any "<item>"
 	Then I should see a result containing "<item>"
+	Then I collect results
 
 	Examples: 
 	| item       |

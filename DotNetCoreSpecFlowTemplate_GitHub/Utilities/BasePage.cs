@@ -12,7 +12,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading;
 
 
-namespace DotNetCoreSpecFlowTemplate.AppPages
+namespace DotNetCoreSpecFlowTemplate.Utilities
 {
     public class BasePage
     {

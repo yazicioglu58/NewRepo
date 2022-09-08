@@ -1,4 +1,5 @@
 ﻿using DotNetCoreSpecFlowTemplate.AppPages;
+using DotNetCoreSpecFlowTemplate.Utilities;
 using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 using System;

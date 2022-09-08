@@ -8,9 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DotNetCoreSpecFlowTemplate.AppPages
+namespace DotNetCoreSpecFlowTemplate.Utilities
 {
-    public class Driver : BasePage
+    public class Driver : BasePage 
     {
         private static List<IWebDriver> _iWebDrivers = new List<IWebDriver>();
         private static readonly ChromeOptions Option = new ChromeOptions();

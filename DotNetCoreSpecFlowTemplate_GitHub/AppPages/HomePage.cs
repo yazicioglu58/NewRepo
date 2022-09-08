@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using DotNetCoreSpecFlowTemplate.Utilities;
 using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using DotNetCoreSpecFlowTemplate.AppPages;
+using DotNetCoreSpecFlowTemplate.Utilities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
@@ -88,6 +89,12 @@ namespace DotNetCoreSpecFlowTemplate.StepDefinitions
         public void ThenIShouldSeeAResultContaining(string searchItem)
         {
             Assert.IsTrue(Driver.GetDriver().FindElement(By.PartialLinkText(searchItem)).Displayed);
+        }
+
+        [Then(@"I collect results")]
+        public void ThenICollectResults()
+        {
+            Console.WriteLine("Results are displayed");
         }
 
     }

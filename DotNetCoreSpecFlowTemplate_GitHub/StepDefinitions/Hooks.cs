@@ -7,6 +7,7 @@ using AventStack.ExtentReports;
 using AventStack.ExtentReports.Gherkin.Model;
 using AventStack.ExtentReports.Reporter;
 using DotNetCoreSpecFlowTemplate.AppPages;
+using DotNetCoreSpecFlowTemplate.Utilities;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 
